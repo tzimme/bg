@@ -1,6 +1,6 @@
 html,body {
-    height: 100%;
-    min-height: 100%;
+	height: 100%;
+	min-height: 100%;
     font-family: monospace;
     font:normal 14px Monospace, Helvetica, sans-serif;
     background-color: #303a46;
@@ -8,7 +8,7 @@ html,body {
     padding: 0;
     position: relative;
     color: #bd9c7d;
-    font-size:34px;
+	font-size:34px;
 }
 
 img {
@@ -16,87 +16,36 @@ img {
 }
 
 #alles {
-    margin:auto;
-    top:100px;
-    height:500px;
-    width:800px;
-    background-color:#122;
-    display:block;
-    position:relative;
-    background-image:url(img/bg.png);
-}
-
-#nameWrap {
-    height:40px;
-    width:350px;
-    margin:auto;
-}
-
-#content {
-    height:100%;
-    width:100%;
-}
-
-#lobby {
-    height:500px;
-    width:300px;
-    float:right;
-    overflow:hidden;
-}
-
-#playerlist {
-    float:right;
+	margin:auto;
+	top:100px;
 	height:500px;
-	width:240px;
-	margin:30px 10px;
+	width:800px;
+	background-color:#122;
+	display:block;
+	position:relative;
 }
 
-.player{
-	font-size:18px;
-	height:28px;
-	margin:5px 0px;
-    line-height:1.6;
-	text-align:center;
-    cursor:pointer;
-    background-image:url(img/p_bg.png);
-}
-
-#me{
-	cursor:default;
-}
-
-.invited{
-	border:1px dotted #bd9c7d;
-}
-
-.inviting{
-	border:1px solid #00b2b3;
-}
-
-#nameError {
-    display:inline-block;
-    color:#600000 ;
-    width:10px;
-    height:11px;
-    font-size:18px;
-}
-
-#bgWrap{
-	margin:50px;
-	position:absolute;
+.content {
+	height:500px;
+	width:760px;
+	display:inline-block;
+	background-image:url(img/bg.png);
 }
 
 #backgammon{
-    height:300px;
-    width:350px;
-    cursor:pointer;
-    line-height:0.98;
+	margin:60px 100px;
+	padding-left:9px;
+	height:300px;
+/* 	width:400px; */
+	cursor:pointer;
+	line-height:0.98;
 }
+
 
 .n1 {
     color:#122;
 }
 
 #selected{
-    color:white;
+	color:white;
 }
