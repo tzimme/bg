@@ -12,6 +12,8 @@
 	o | | | x |   x | | | | o
 	o | | | x | 0 x | | | | o 0  
 	1314151617182819202122232425
+
+	how not to use jquery :>
 */
 
 var feld=new Array(28),
